@@ -1,0 +1,107 @@
+header {
+    background: linear-gradient( green, 90%, greenyellow);
+    height: 30vh;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+strong {
+    margin-left: 5vw;
+}
+.titulo {
+    
+}
+body {
+    border-collapse: collapse;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: solid green;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+}
+
+nav a {
+    
+    font-family:'Segoe UI';
+    text-decoration: none;
+    
+}
+
+.menu {
+    display: flex;
+    text-decoration: none;
+    align-items: last baseline;
+    gap: 40px;
+}
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    background-image: linear-gradient(to right,greenyellow, white, greenyellow);
+    border-radius: 5px
+}
+.menu li:hover {
+    background-image: linear-gradient(to right,orange, white, orange);
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    margin-left: 5vw
+}
+p {
+    
+    font-family:'Segoe UI';
+    align-self: first baseline;
+    justify-items: flex-start;
+    
+}
+
+
+
+h2 {
+    font-family:'Segoe UI';
+}
+.cabeza {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+    
+}
+.cabeza h2 {
+    color: white;
+    margin: 0.5vw;
+}
+.cabeza p {
+    color: white;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+
+}
+.users {
+    margin: 15px;
+}
+.bienvenida {
+    margin: 15px;
+
+}
+.enlaces {
+    margin: 15px;
+}
+
+.enlaces a {
+    color: green;
+}
