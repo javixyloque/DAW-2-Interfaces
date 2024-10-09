@@ -8,9 +8,7 @@ header {
 strong {
     margin-left: 5vw;
 }
-.titulo {
-    
-}
+
 body {
     border-collapse: collapse;
 }
@@ -20,7 +18,7 @@ main {
     grid-template-columns: 1fr 2fr 1fr;
     border: solid green;
     border-radius: 10px;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 nav {
@@ -53,7 +51,7 @@ nav a {
 
 h1 {
     font-family: 'Segoe UI';
-    margin-left: 5vw
+    margin-left: 5vw;
 }
 p {
     
@@ -78,7 +76,7 @@ h2 {
 }
 .cabeza h2 {
     color: white;
-    margin: 0.5vw;
+    margin-left: 0.5vw;
 }
 .cabeza p {
     color: white;
