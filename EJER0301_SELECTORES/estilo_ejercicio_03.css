@@ -1,0 +1,22 @@
+
+body {
+    font-family: system-ui;
+}
+
+h2::first-letter {
+    color: red;
+}
+
+h2:first-of-type {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+.item:nth-child(3) {
+    color: rgb(152, 251, 152);
+}
+
+
