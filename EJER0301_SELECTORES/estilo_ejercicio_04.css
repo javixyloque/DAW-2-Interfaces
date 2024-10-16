@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana;
+}
+input {
+    background-color: rgba(255, 166, 0, 0.36);
+}
+
+div:nth-child(6) input {
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 3px 7px 0px rgba(128, 128, 128, 0.315);
+}
+div:nth-child(5) {
+    position: relative;
+}
+div:nth-child(5)::after {
+    content: url("https://cdn-icons-png.freepik.com/512/1136/1136964.png");
+    display: none;    
+    height: 30px;
+    width: 40px;
+    left: 17%;
+    top: 8%;
+    position: absolute;
+    transform: scale(0.1);
+    
+}
+
+div p a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-top: 5%;
+}
+input#dificultad:checked ~ div:nth-child(5)::after {
+    display: block;
+} 
