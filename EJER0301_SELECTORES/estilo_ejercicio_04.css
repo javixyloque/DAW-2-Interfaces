@@ -9,20 +9,23 @@ div:nth-child(6) input {
     border-radius: 10px;
     border: 0px;
     box-shadow: 0px 3px 7px 0px rgba(128, 128, 128, 0.315);
-}
-div:nth-child(5) {
     position: relative;
 }
-div:nth-child(5)::after {
+/* #dificultad:checked:before {
     content: url("https://cdn-icons-png.freepik.com/512/1136/1136964.png");
-    display: none;    
-    height: 30px;
-    width: 40px;
+    display:none;
+} */
+
+/*NO FUNCIONA PERO ES QUE YA NO SE QUE MAS INTENTAR*/
+div:nth-child(6) input:checked:after {
+    content: url("https://cdn-icons-png.freepik.com/512/1136/1136964.png");
+    display: block;   
+    position: absolute; 
     left: 17%;
     top: 8%;
-    position: absolute;
-    transform: scale(0.1);
-    
+    height: 30px;
+    width: 40px;
+    transform: scale(1);
 }
 
 div p a {
@@ -32,6 +35,3 @@ div p a {
 p {
     margin-top: 5%;
 }
-input#dificultad:checked ~ div:nth-child(5)::after {
-    display: block;
-} 
