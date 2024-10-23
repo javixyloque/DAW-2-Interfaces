@@ -1,0 +1,98 @@
+h1 {
+    display: block; 
+    text-align: center; 
+    border: solid 2px white;
+    padding: 2vh;
+    max-width: fit-content;
+    margin-left: 25%;
+    margin-right: 25%;     
+}
+
+
+h2 {
+    background-image: url("patron.jpg");
+    
+}
+
+h2:first-of-type {
+    text-align: right;
+    padding: 0.5%;
+    margin-left: 50%;
+}
+h2:last-of-type {
+    text-align: left;
+    padding: 0.5%;
+    padding-left: 3%;
+    margin-right: 50%;
+}
+
+.container div:first-child::before {
+    content: "";
+    display: inline;
+    width: 200px; 
+    height: 200px; 
+    background-image: url("logos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -850%;
+    left: 16%;
+    background-color: transparent;
+    position: absolute;
+}
+.container div:first-child {
+    border-bottom: dotted rgb(95, 144, 193);
+    background-color: blue;
+    position: relative;
+    margin-top: 20vh;
+    color:white;
+    margin-bottom: 2vh;
+}
+
+
+.container div:nth-child(3) {
+    background-color: rgba(240, 196, 73, 0.998);
+    padding: 2vh;   
+    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.container div:nth-child(5) {
+    position:relative;
+    display:flex;   
+    flex-direction: column;
+    text-align: right;
+    padding-left: 30%;
+}
+
+.container div:nth-child(5)::before {
+    content: "";
+    display: block;
+    background-image: url("computer.png");
+    min-height: 200px;
+    width: 200px;
+    position: absolute;
+    background-repeat: no-repeat;       
+    background-size: 200px; 
+    left: -0.5%; 
+
+}
+ul {
+    margin-left: 5vw;
+}
+
+.container {
+    display: block;
+    max-width: 720px;
+    margin: auto;
+    border: solid blue 2px;
+    background-color: rgb(61, 113, 165);
+    align-self: center;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(95, 144, 193);
+    font-family: fantasy;
+    height: 100vh;  
+}
