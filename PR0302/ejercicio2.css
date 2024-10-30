@@ -1,0 +1,130 @@
+header {
+    position:fixed;
+    /* margin-bottom:25%; */
+    /* margin-top: 0; */
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    flex-direction: column; */
+    z-index: 1000;
+    width: 99vw;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+    font-size: x-large;
+
+}
+li  {
+    margin-right: 5%;
+    list-style: none;
+    
+
+}
+li > a {
+    align-items: right;
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+    
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98vw;
+}
+
+
+div:nth-of-type(1) {
+    background-color: rgb(163, 94, 44);
+}
+
+
+ul > a {
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+    
+}
+
+
+h1:first-of-type {
+    color: white;
+    background-color: chocolate;
+    width: 97vw;
+    padding: 1%;
+}
+
+
+
+/* DISPLAY DEL MAIN DE LA PAGINA */
+
+.principal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color:chocolate ;
+    top: 20%;
+    padding: 2vw;
+    width: 45vw;
+    justify-content: space-around;
+}
+
+.principal > div {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10%;
+    background-color: chocolate;
+    align-items: space-around;
+}
+.principal > div > p {
+    margin: 5%; 
+}
+/* main {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 3fr;
+} */
+
+form {
+    position: absolute;
+    display:flex;
+    top: 20%;
+    margin-left: 50%;
+    background-color: chocolate; 
+    padding: 2vw;
+    width: 45vw;
+    justify-content: space-evenly;
+}
+
+figure {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    top: 28%;
+    margin-left: 50%;
+    padding: 2vw;
+    width: 45vw;
+    background-color: chocolate;
+}
+figcaption {
+    margin-top: 5vh;
+}
+
+section:nth-of-type(1) {
+    top: 56%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(163, 94, 44);
+    width: 45vw;
+    padding: 2vw;
+}
+
+/* main {
+    display: flex;
+} */
