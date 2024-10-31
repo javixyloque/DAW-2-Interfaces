@@ -16,7 +16,7 @@ div:nth-child(6) input {
     display:none;
 } */
 
-/*NO FUNCIONA PERO ES QUE YA NO SE QUE MAS INTENTAR*/
+/* NO FUNCIONA PERO ES QUE YA NO SE QUE MAS INTENTAR */
 div:nth-child(6) input:checked:after {
     content: url("https://cdn-icons-png.freepik.com/512/1136/1136964.png");
     display: block;   
