@@ -147,6 +147,7 @@ section:nth-of-type(1) > ul > li > a {
     justify-content: center;
     top: 75%;
     width: 49vw;
+    /* height: 85vh; */
     /* padding: 2vw; */
     margin-left: 50%;
     gap: 2vh;
@@ -161,9 +162,20 @@ section:nth-of-type(1) > ul > li > a {
     color: black;
     font-size: 200%;
     text-align: center;
-    height: 30vh;
+    height: 37vh;
     /* align-self: center; */
     
     
+}
+
+footer {
+    position: absolute;
+    display: block;
+    top: 155%;
+    background-color: chocolate;
+    width: 98vw;
+    padding: 1vw;
+    font-size: xx-large;
+    text-align: center;
 }
 
