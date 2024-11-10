@@ -1,0 +1,41 @@
+h1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color:green;
+}
+table, td, th {
+    border: solid 2px;
+    border-collapse: collapse;
+    
+}
+table {
+    width: 100vw;
+}
+th {
+    text-align: center;
+}
+.calidad {
+    color: green;
+    font-size: 200%;
+    
+}
+/*SELECCIONA LAS FILAS impares (odd) pares (even)*/
+tr:nth-child(odd) {
+    background-color: white;
+}
+caption {
+    text-align: right;
+    margin-top: 5vh;
+    
+}
+th{
+    background-image: linear-gradient(to bottom, green 50%, rgb(21, 168, 11));
+    color: white;
+    border-color: black;
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+
+html {
+    background-color: rgba(255, 255, 0, 0.224);
+}

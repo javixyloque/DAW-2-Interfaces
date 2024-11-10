@@ -1,10 +1,96 @@
-h1 {
-    font-family: Impact;
+/*Este está un poco regular porque no llego a trabajar y 
+    no me ha dado tiempo de acabarlo bien, pero la idea es esa (espero)
+*/
+
+.producto {
+    position: relative;
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("./resources/23209608_0768.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    
 }
-.topventas {
-    font-size: 80px;
+section {
+    height: 70%;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    background-image: url("./resources/23209608_0768.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 1px;
+    margin-bottom: 10%;
+} 
+.boton {
+    display: inline;
+    position: absolute;
+    visibility: visible;
+    background-image: url("./resources/boton_amarillo.png");
+}
+
+.iconos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px; 
+    background-color: rgba(22, 17, 17, 0.578); 
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.producto:hover .iconos {
+    opacity: 6; 
+}
+
+.topventas, .disponible, .carro, .comparador, .configurador, .listadeseo {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.boton {
+    background-image: url("resources/boton_amarillo.png");
+    height: 80px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
+    position: absolute;
+    top: 155px;
+    left: 10px;
 }
+
+
+.topventas {
+    background-image: url("resources/logo_topventas-mini-reducido.png");
+}
+
 .disponible {
-    /* background-image: url("./resources/boton_amarillo.png"); */
+    background-image: url("resources/stock-2b.png");
+    position: relative;
+    /* display: inline;
+    float: inline-end; */
+}
+
+.carro {
+    background-image: url("resources/icono-ficha-carro.png");
+}
+
+.comparador {
+    background-image: url("resources/icono-ficha-comparador.png");
+}
+
+.configurador {
+    background-image: url("./resources/icono-ficha-configurador.png");
+}
+.listadeseo {
+    background-image: url("./resources/icono-ficha-listadeseo.png");
 }
