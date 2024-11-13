@@ -1,0 +1,45 @@
+li {
+    margin-right: 10%;
+    list-style: none;
+    border-bottom: solid 2px rgb(20, 116, 45);
+    
+    
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(158, 184, 156);
+    font-size: xx-large;
+    transition: background-color 2s ease-out;
+}
+
+a:hover{
+    background-color: green;
+    transition-duration: 0.2s;
+}    
+
+/* NO NECESARIO PERO UTIL */
+/* a :not(:hover) a{
+    transition-delay: 3s;
+} */
+
+ul {
+    padding: 0.5%;
+    display: inline-flex;
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    border: solid 2px;
+    background-color: rgba(27, 49, 32, 0.813);
+}
+html {
+    font-family: 'Verdana';
+    background: linear-gradient(to bottom, green, limegreen);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+h1 {
+    color:rgb(158, 184, 156)
+}
+
+
