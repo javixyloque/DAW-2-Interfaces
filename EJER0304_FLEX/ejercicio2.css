@@ -1,0 +1,86 @@
+html {
+    font-family: 'Bahnschrift';
+}
+#tab-1 {
+    display: none;
+  
+    
+    width: 100%;
+    height: 80%;
+}
+#tab-2 {
+    display: none;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(229, 229, 229);
+}
+
+
+#tab-3 {
+    display: none;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(229, 229, 229);
+}
+#tab-1 > article {
+    padding: 5px;
+    background-color: rgb(229, 229, 229);
+}
+button:first-of-type:active .tab1 {
+    visibility: visible;
+}
+article > h2 {
+    color: red;
+}
+ul {
+    list-style: none;
+    width: 50px;
+    margin-left: -40px;
+    margin-top: 0;
+}
+
+li {
+    padding: 3px;
+    background-color: rgb(229, 229, 229);
+}
+
+li > a {
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(229, 229, 229);    
+}
+
+section {
+    display: flex;
+    flex-direction:row;
+}
+
+header {
+    padding-top: 50px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(216, 27, 27, 0.768);
+    
+    color: white;
+    font-size: xx-large;
+}
+#tab-1:target {
+    display: flex;
+    visibility: visible;
+}
+#tab-2:target {
+    display: flex;
+    visibility: visible;
+}
+
+#tab-3:target {
+    display: flex;
+    visibility: visible;
+}
+
+@media (max-width: 900px) {
+    
+}
