@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 80%;
+    height: 60%;
+    background-color: lightblue;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alineación vertical de los elementos */
+    flex-wrap: wrap; /* Los elementos se envuelven si no caben en una fila */
+    gap: 10px; /* Espacio entre los elementos */
+    border: 2px solid #007bff;
+    padding: 10px;
+  }
+  
+  .flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex-grow: 1; /* Los elementos pueden crecer para ocupar el espacio disponible */
+    flex-basis: 150px; /* Tamaño base de los elementos */
+    flex-shrink: 1; /* Los elementos pueden encogerse si es necesario */
+    min-width: 100px; /* El ancho mínimo de los elementos */
+  }
+  
