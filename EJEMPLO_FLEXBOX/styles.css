@@ -1,40 +1,41 @@
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background-color: #f4f4f4;
   }
   
-  .flex-container {
-    display: flex;
-    width: 80%;
-    height: 60%;
-    background-color: lightblue;
-    justify-content: space-between; /* Espacio entre los elementos */
-    align-items: center; /* Alineación vertical de los elementos */
-    flex-wrap: wrap; /* Los elementos se envuelven si no caben en una fila */
-    gap: 10px; /* Espacio entre los elementos */
-    border: 2px solid #007bff;
-    padding: 10px;
+  .container {
+    display: flex; /* Activa Flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+    justify-content: space-around; /* Espacios iguales entre elementos */
+    align-items: center; /* Centra elementos verticalmente */
+    gap: 10px; /* Espacio entre elementos */
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
   }
   
-  .flex-item {
-    background-color: #4CAF50;
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
     color: white;
-    padding: 20px;
+    display: flex; /* Flexbox dentro de los hijos */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    font-size: 20px;
     border-radius: 5px;
-    text-align: center;
-    flex-grow: 1; /* Los elementos pueden crecer para ocupar el espacio disponible */
-    flex-basis: 150px; /* Tamaño base de los elementos */
-    flex-shrink: 1; /* Los elementos pueden encogerse si es necesario */
-    min-width: 100px; /* El ancho mínimo de los elementos */
+    flex: 1 1 150px; /* Crece, encoge y tiene un tamaño base (GROW, SHRINK, BASIS) */
+    transition: transform 0.3s;
+  }
+  
+  .box:hover {
+    transform: scale(1.1); /* Efecto al pasar el ratón */
   }
   
