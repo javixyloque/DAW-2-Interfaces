@@ -10,32 +10,35 @@ body {
     background-color: #f4f4f4;
   }
   
-  .container {
-    display: flex; /* Activa Flexbox */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
-    justify-content: space-around; /* Espacios iguales entre elementos */
-    align-items: center; /* Centra elementos verticalmente */
-    gap: 10px; /* Espacio entre elementos */
-    background-color: #ddd;
-    padding: 20px;
-    border-radius: 10px;
-  }
+.container {
+  display: flex; /* Activa Flexbox */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+  justify-content: space-around; /* Espacios iguales entre elementos */
+  align-items: center; /* Centra elementos verticalmente */
+  gap: 10px; /* Espacio entre elementos */
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
   
-  .box {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    color: white;
-    display: flex; /* Flexbox dentro de los hijos */
-    justify-content: center; /* Centra el texto horizontalmente */
-    align-items: center; /* Centra el texto verticalmente */
-    font-size: 20px;
-    border-radius: 5px;
-    flex: 1 1 150px; /* Crece, encoge y tiene un tamaño base (GROW, SHRINK, BASIS) */
-    transition: transform 0.3s;
-  }
-  
-  .box:hover {
-    transform: scale(1.1); /* Efecto al pasar el ratón */
-  }
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  display: flex; /* Flexbox dentro de los hijos */
+  justify-content: center; /* Centra el texto horizontalmente */
+  align-items: center; /* Centra el texto verticalmente */
+  font-size: 20px;
+  border-radius: 5px;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 150px; */
+  flex: 1 1 150px; /* Crece, encoge y tiene un tamaño base (GROW, SHRINK, BASIS) */
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.1); /* Efecto al pasar el ratón */
+}
   
