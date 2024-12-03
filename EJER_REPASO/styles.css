@@ -1,0 +1,90 @@
+header {
+    height: 8vh;
+    width: 100%;
+    background-image: url('./header.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* ESTO ES PARA Q CUBRA TODO EL ELEMENTO */
+    background-position: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 15px;
+    background: #EBECED;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    align-items: center;
+}
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 10px;
+}
+
+aside {
+    
+    width: 250px; 
+    border: solid 3px #BBB;
+    justify-content: space-between;
+    align-items: space-around;
+
+}
+
+a {
+    position: relative;
+    width: 200px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: system-ui;
+    margin: 5px;
+    
+    left: -20px;
+    
+}
+
+li:hover {
+    translate: 20px;
+    transition: all 0.25s ease;
+    background:rgb(13, 72, 221)
+}
+
+
+li {
+    padding: 12%;
+    background: rgb(50, 143, 255);
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+    font-family: system-ui;
+}
+
+main {
+    width: 816px;
+    margin-left: 15px;
+}
+
+#hoteles {
+
+}
+
+
+footer {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: url("./footer.png");
+    background-size: cover;
+}
+#contenedor {
+    width: 1080px;
+    background: #EBECED;
+}
