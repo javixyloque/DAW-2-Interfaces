@@ -1,0 +1,174 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    
+    color: rgb(44,44,44);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255,233,233);
+}
+header {
+    
+    margin-top: 0;
+    text-align: center;
+}
+main {
+    min-width: 700px;
+    max-width: 900px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    font-style: bold;
+    text-decoration: none;
+    color: goldenrod;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+a:hover {
+    color: #b1881c;
+}
+a:hover hr {
+    border: #b1881c;
+}
+li {
+    margin:5%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+a > hr {
+    width:115px;
+    /* border: solid rgba(#b1881c); */
+    background-color: #b1881c;
+    position: absolute;
+    top: 34%;
+     
+}
+hr:nth-last-child() {
+
+    /* border: solid rgb(231,231,231); */
+    width: 100%;
+    
+}
+@import  url("../Open_Sans\,Roboto/Open_Sans/static/Open_Sans-Regular.ttf");
+
+.interruptor {
+   
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+}
+.interruptor {
+    width: 60%;
+}
+.interruptor ul {
+    background-color: #b1881c;
+    border-radius: 15px;
+    height: 40px;
+    text-align: center;
+    justify-content: first baseline;
+    
+}
+.interruptor button {
+    background-color:transparent;
+    font-weight: bold;
+    border: none;
+    position:absolute;
+    top: 25%;
+}
+.interruptor  button:nth-of-type(1) {
+    background-color: white;
+    border-radius: 15px
+}
+
+section>div {
+    background-color:  rgb(255,233,233);
+    margin: 5% 25%;
+    text-align: center;
+    border-radius: 10px;
+}
+section>div>p:nth-child(2) {
+    font-weight: bold;
+    font-size: 25px;
+}
+section > div > p {
+    padding: 5%;
+    
+}
+section > p {
+    font-style: italic;
+    text-align: center;
+}
+section p {
+    color: rgb(44,44,44);
+}
+progress {
+    height: 18px;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.218);
+    border-radius: 10px;
+}
+.cartas {
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    background-color: rgb(255,223,223);
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,3);
+}
+.card > hr {
+    width: 50%;
+    border-style: dotted;
+}
+.card > p > em {
+    font-style: bold;
+    font-size: 42px;
+    color: rgb(44,44,44)
+    
+}
+.card:hover {
+    translate: 0px -20px;
+    transition: all 0.25 ease-in-out;
+}
+
+.card > button {
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 0;
+}
+.card > button:hover {
+    transform: scale(1.05);
+    transition: transform 0.5 ease-in-out;
+
+}
+
+
+footer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+
+}
+footer > p {
+    margin: 40px;
+}

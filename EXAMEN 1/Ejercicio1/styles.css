@@ -1,0 +1,84 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to  right, red, orange);
+}
+body > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    align-self: center;
+    align-items: center;
+    background-color: azure;
+    min-height: 100vh;
+}
+h1 {
+    color: gray;
+    margin: 15%
+}
+.foto {
+   
+    background: linear-gradient(to  right, red, orange);
+}
+.menu {
+    padding-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+button {
+    border-radius: 15px;
+    margin: 0;
+}
+button:active {
+    transform: scale(1.15);
+    border-style: dashed;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-content: space-evenly;
+}
+img {
+    background: linear-gradient(to left, red, orange);
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 30%;
+}
+input {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: azure;
+}
+textarea {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: azure;
+    
+
+
+}
+input[type="submit"]  {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    box-shadow:black 0px 5px 10px;
+}
+button {
+    height: 50px;
+    width: 100px;
+}
