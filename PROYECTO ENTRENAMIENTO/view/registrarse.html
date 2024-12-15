@@ -7,11 +7,42 @@
     <title>REGISTRO</title>
 </head>
 <body>
+    <header>
+        <a href="./index.html">INICIO</a>
+        <a href="./actividades.html">ACTIVIDADES</a>
+        <a href="./perfil.html">PERFIL</a>
+
+        <hr>
+
+        <div id="acciones"><a href="./registrarse.html">REGISTRARSE</a>
+            <a href="./iniciar-sesion.html">INICIAR SESIÓN</a></div>
+        
+    </header>
+    
     <form action="./index.html">
+        <h1>REGISTRO</h1>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+
+
+        <label for="apelliidos">Apellidos</label>
+        <input type="text" name="apellidos">
+
+        <label for="nickname">Nombre de usuario</label>
+        <input type="text" name="nickname">
+
         <label for="email">Email </label>
         <input type="text" placeholder="ejemplo@ejemplo.com" name="" id="">
+        
         <label for="contraseña">Contraseña </label>
         <input type="text" placeholder="******" name="" id="">
+        
+        <label for="estatura">Estatura</label>
+        <input type="number">
+        
+        <label for="peso">Peso (kg)</label>
+        <input type="number">
+        
         <button type="submit">REGISTRARSE</button>
     </form>
 </body>
