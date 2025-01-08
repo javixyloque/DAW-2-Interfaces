@@ -1,0 +1,25 @@
+.container {
+    border: solid 2px;
+    text-align: center;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.footer {
+    background-color: aqua;
+}
+div {
+    border:solid 0.5px;
+}
+
+.izquierda {
+    background-color: transparent;
+}
+.contenido {
+    background-color: yellow;
+}
+.derecha {
+    background-color: green;
+}
