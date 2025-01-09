@@ -1,0 +1,23 @@
+.verde {
+    background-color: limegreen;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.crema {
+    background-color: rosybrown;
+}
+.azul {
+    background-color: cadetblue;
+}
+
+div {
+    border: solid 1px;
+    border-collapse: collapse;
+}
