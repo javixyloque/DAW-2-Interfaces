@@ -1,23 +1,31 @@
 .verde {
     background-color: limegreen;
 }
+.verde:nth-child(1) {
+    padding: 5% 0;
+}
 
 .rojo {
     background-color: red;
+    padding: 3% 0;
 }
 
 .rosa {
-    background-color: pink;
+    background-color: fuchsia;
+    padding: 2% 0;
 }
 
 .crema {
-    background-color: rosybrown;
+    background-color: pink;
+    padding: 5%;
 }
 .azul {
     background-color: cadetblue;
+    padding: 3%;
 }
 
 div {
     border: solid 1px;
     border-collapse: collapse;
+    
 }
