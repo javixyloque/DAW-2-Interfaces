@@ -1,9 +1,27 @@
-.boton-menu {
-    color: white;
-    transition: all 0.5s ease-out;
+#slider {
+    max-width: 80%;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
-.boton-menu:hover {
-    background-color: #6610f2;
+
+
+
+button {
+    
+    transition: all 0.2s ease-out;
+
+}
+button:hover {
     transform: scale(1.15);
     transition: all 0.25s ease-in;
+}
+
+
+
+@media (max-width: 767px) {
+    #slider {
+        max-width: 100%;
+        margin: 0;
+    }
 }

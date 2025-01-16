@@ -92,10 +92,12 @@ header {
     color: white;
     font-size: xx-large;
 }
+
 #tab-1:target {
     display: flex;
     visibility: visible;
 }
+
 #tab-2:target {
     display: flex;
     flex-direction: column;
@@ -124,9 +126,11 @@ li:hover, a {
         background-color: rgb(229, 229, 229);
         text-align: center;
     }
+
     section {
         flex-direction: column;
     }
+
     #tab-1 {
         width: 100%;
         flex-direction: column;
