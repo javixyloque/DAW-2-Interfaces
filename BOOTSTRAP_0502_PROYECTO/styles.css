@@ -1,27 +1,49 @@
+@font-face {
+    src: url('./Rubik-Light.ttf');
+    font-family:'Rubik Light', sans-serif;
+}
+
+* {
+    font-family: 'Rubik Light';
+}
+
 #slider {
-    max-width: 80%;
-    margin-top: 10vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
+}
+
+.slider {
+    width: 90%;
+    margin-top: 30%;
+    margin: auto;
 }
 
 
 
-button {
-    
-    transition: all 0.2s ease-out;
+a.btn, button[type="submit"] {
+    box-shadow: 4px 4px 0px rgb(173, 173, 173);
+    transition: all 0.25s ease-out;
 
 }
-button:hover {
-    transform: scale(1.15);
+a.btn:hover, button[type="submit"]:hover {
+
+    box-shadow: 1px 1px 0px rgb(173, 173, 173);
+    transform: translate(3px, 3px);
     transition: all 0.25s ease-in;
 }
 
+/* button[type="button"] {
+    margin-top: 10vh;
+} */
 
 
 @media (max-width: 767px) {
     #slider {
         max-width: 100%;
         margin: 0;
+    }
+    .slider {
+        width: 100%;
+        margin-top: 20%;
+
     }
 }
