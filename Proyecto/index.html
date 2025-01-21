@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natán Blanco Rodríguez">
+    <link rel="icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Academia</title>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contáctanos 689-157-848</p>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.png" alt="logo" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Clases
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#equipo">Infantil</a></li>
+                            <li><a class="dropdown-item" href="#equipo">Primaria</a></li>
+                            <li><a class="dropdown-item" href="#equipo">Adultos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Certificados Inglés
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#A1">A1</a></li>
+                            <li><a class="dropdown-item" href="#A2">A2</a></li>
+                            <li><a class="dropdown-item" href="#B1">B1</a></li>
+                            <li><a class="dropdown-item" href="#B2">B2</a></li>
+                            <li><a class="dropdown-item" href="#C1">C1</a></li>
+                            <li><a class="dropdown-item" href="#C2">C2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Certificados Francés
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#delf">DELF</a></li>
+                            <li><a class="dropdown-item" href="#dalf">DALF</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">Suscríbete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="imagenes/academia1.jpg" class="d-block w-100" alt="academia1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="imagenes/academia2.jpg" class="d-block w-100" alt="academia2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="imagenes/academia3.jpg" class="d-block w-100" alt="academia3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- INTRO -->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Una academia única para todas tus necesidades <span class="text-primary">lingüisticas</span></h1>
+        <p class="p-3 fs-4"><span class="text-primary">Academia</span> es tu principal aliada para llevar a cabo aquellas metas y sueños que podrías tener ya sea conociendo nuevos países o encontrando el trabajo de tus sueños</p>
+    </section>
+
+    <!-- IMÁGENES -->
+
+    <div class="container">
+        <h2 class="text-center">CERTIFICADOS INGLÉS</h2>
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/A1Nuevo.png" alt="A1" id="A1">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/A2.png" alt="A2" id="A2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/B1.png" alt="B1" id="B1">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/B2.png" alt="B2" id="B2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/C1.png" alt="C1" id="C1">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/C2.png" alt="C2" id="C2">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center">CERTIFICADOS FRANCÉS</h2>
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/delf.jpg" alt="delf" id="delf">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid mx-auto d-block" src="imagenes/dalf.jpg" alt="dalf" id="dalf">
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICIOS -->
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="imagenes/dinamicas.png" alt="dinamicas" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Dinamismo</h3>
+                <p class="ps-4">Nuestras clases están diseñadas para ser interactivas y participativas, fomentando el uso práctico del idioma</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="imagenes/profesores.png" alt="profesores" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Profesores Expertos</h3>
+                <p class="ps-4">Profesores nativos y altamente cualificados que te guiarán en cada paso del aprendizaje</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="imagenes/cultural.png" alt="cultural" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Inmersión Cultural</h3>
+                <p class="ps-4">Ofrecemos actividades culturales para que puedas practicar el idioma en contextos reales y conocer más sobre la cultura del idioma que estás aprendiendo</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-5 d-flex icono-wrap">
+                <img src="imagenes/herramientas.png" alt="herramientas" width="180" height="160">
+                <h3 class="fs-5 mt-4 px-4 pb-1">Herramientas</h3>
+                <p class="ps-4">Utilizamos las últimas tecnologías y aplicaciones para complementar tu aprendizaje y permitirte estudiar desde cualquier lugar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACERCA DE NOSOTROS -->
+
+    <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">Resultados Grandes</span></h1>
+            <p class="fs-4">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros</p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="imagenes/equipo.jpg" alt="equipo">
+        </div>
+        <div class="border-top border-2" id="local">
+            <div class="mapa">
+            </div>
+            <div>
+                <div class="wrapper">
+                    <h2>Ubicado en Palencia, España</h2>
+                    <h2 class="text-primary mb-4" id="typewriter"></h2>
+                    <p class="fs-5 text-body">Elegimos Palencia para nuestra academia con el objetivo de proporcionar un entorno tranquilo y accesible para nuestros estudiantes. Estamos ubicados en el corazón de la ciudad, cerca de los mejores restaurantes, tiendas y puntos de interés histórico, y a tan solo unos pasos del río Carrión. ¡Visítanos y descubre la mejor experiencia de aprendizaje de idiomas en un lugar encantador y acogedor!</p>
+                    <section class="d-flex" id="numeros-local">
+                        <div>
+                            <p class="text-primary fs-5">365</p>
+                            <p>Días al Año</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">92%</p>
+                            <p>Aprobado</p>
+                        </div>
+                        <div>
+                            <p class="text-primary fs-5">+5</p>
+                            <p>Idiomas</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BG FORMULARIO -->
+
+    <section class="border-bottom border-secondary border-2" id="seccion-contacto">
+        <div id="bg-contacto">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,160L60,154.7C120,149,240,139,360,138.7C480,139,600,149,720,170.7C840,192,960,224,1080,240C1200,256,1320,256,1380,256L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <!-- FORMULARIO -->
+
+        <div class="container" id="contenedor-formulario">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div>
+                    <img src="imagenes/support.png" alt="contacto" class="img-fluid">
+                    <h2>Contactos</h2>
+                    <p class="fs-5">Únete a través de un pequeño formulario</p>
+                </div>
+            </div>
+            <form action="">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Juan García" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary w-100 fs-5" type="button">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Natán Blanco &copy; Todos Los Derechos Reservados 2025</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

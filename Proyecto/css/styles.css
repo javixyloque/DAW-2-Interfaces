@@ -1,0 +1,229 @@
+/*==========Globales==========*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*==========MENU==========*/
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*==========SLIDER==========*/
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/*==========SECCIÓN NUESTRO EQUIPO IMAGEN==========*/
+
+.icono-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-wrap img {
+    order: -1;
+}
+
+#A1 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+
+#A1:hover {
+    transform: translateY(-10px);  
+}
+
+#A2 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+
+#A2:hover {
+    transform: translateY(10px); 
+}
+
+#B1 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+#B1:hover {
+    transform: translateX(50px);  
+}
+
+#B2 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+
+#B2:hover {
+    transform: translateX(-50px);  
+}
+
+#C1 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+
+#C1:hover {
+    transform: rotate(-50deg); 
+} 
+
+#C2 { 
+    transition: transform 0.5s ease-in-out; 
+} 
+
+#C2:hover { 
+    transform: rotate(50deg);  
+} 
+
+#delf, #dalf { 
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out; 
+} 
+
+#delf:hover, #dalf:hover { 
+    filter: saturate(2); 
+    transform: scale(1.1); 
+}
+
+/*==========SECCIÓN NUESTRO EQUIPO MAPA==========*/
+
+.mapa {
+    background: url(../imagenes/mapa.png);
+    width: 100%;
+    height: 500px;
+}
+
+#local {
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+/*==========SECCIÓN EQUIPO PALENCIA==========*/
+
+#numeros-local div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child) {
+    padding-left: 20px;
+}
+
+#numeros-local p {
+    margin: 0;
+}
+
+/*==========CONTACTOS BACKGROUND==========*/
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #0099ff;
+    min-height: 500px;
+    position: relative;
+}
+
+/*==========CONTACTOS FORMULARIO==========*/
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+/*===========FOOTER================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/*==========QUERIES==========*/
+
+/*==========MEDIA QUERIES PANTALLA ANCHA==========*/
+
+@media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/*==========MEDIA QUERIES PANTALLA SM==========*/
+
+@media (max-width: 768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bg-contacto {
+        top: -110px;
+    }
+}
+
+/*==========MEDIA QUERIES PANTALLA EXTRA-SM==========*/
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
