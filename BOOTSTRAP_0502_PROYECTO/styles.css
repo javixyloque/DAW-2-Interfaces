@@ -57,13 +57,21 @@ a.btn:active, button[type="submit"]:active {
 .img-thumbnail {
     max-height: 40%;
     max-width: 60%;
+    z-index: 100;
+}
+article h2 {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+article:hover h2 {
+    opacity: 1;
 }
 
+
+
+
 @media (max-width: 767px) {
-    #slider {
-        max-width: 100%;
-        margin: 0;
-    }
+    
     .slider {
         width: 100%;
         margin-top: 10%;
