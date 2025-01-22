@@ -54,6 +54,10 @@ a.btn:active, button[type="submit"]:active {
     margin-top: 10vh;
 } */
 
+.img-thumbnail {
+    max-height: 40%;
+    max-width: 60%;
+}
 
 @media (max-width: 767px) {
     #slider {

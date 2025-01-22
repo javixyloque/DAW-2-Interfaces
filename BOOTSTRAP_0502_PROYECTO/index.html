@@ -24,11 +24,11 @@
                 <nav class="navbar">
                     <ul class="d-flex flex-row justify-content-evenly list-unstyled m-0 p-0 w-100">
                         
-                        <li >
+                        <li>
                             <a class="btn btn-secondary text-decoration-none boton-menu px-3 py-2 w-100" href="#contactar">CONTACTAR</a>
                         </li>
                         <li >
-                            <a class="btn btn-secondary text-decoration-none boton-menu px-3 py-2 w-100" href="#">NOTICIAS</a>
+                            <a class="btn btn-secondary text-decoration-none boton-menu px-3 py-2 w-100" href="#noticias">NOTICIAS</a>
                         </li>
                         <li>
                             <a class="btn btn-secondary text-decoration-none boton-menu px-3 py-2 w-100" href="#">SOBRE NOSOTROS</a>
@@ -47,7 +47,9 @@
             </div>
         </header>
     
-
+        <div class="row mt-5">
+            <h1 class="mt-5 text-center">BIENVENIDO A FORMEX&copy;</h1>
+        </div>
 
         <!-- FILA PARA EL CARRUSEL -->
         <div class="row slider">
@@ -64,8 +66,8 @@
                             <img src="./img/reunion.png" class="d-block w-100 h-30 img-fluid" alt="...">
 
                             <!-- DESCRIPCIÓN IMAGEN -->
-                            <div class="carousel-caption mb-md-5">
-                                <h5>Bienvenido a FORMEX&copy;</h5>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Bienvenido a FORMEX&copy;</h2>
                                 <p>Empresa lider en automatización</p>
                             </div>
                         </div>
@@ -73,8 +75,8 @@
                         <div class="carousel-item">
                             <img src="./img/saludo.png" class="d-block w-100 h-30 img-fluid" alt="...">
                             <!-- DESCRIPCIÓN IMAGEN -->
-                            <div class="carousel-caption mb-md-5">
-                                <h5>PROFESIONALIDAD</h5>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>PROFESIONALIDAD</h2>
                                 <p>Elevamos al máximo las posibilidades de tu empresa</p>
                             </div>
                         </div>
@@ -83,8 +85,8 @@
                             <img src="./img/portada.png" class="d-block w-100 h-30 img-fluid" alt="...">
 
                             <!-- DESCRIPCIÓN IMAGEN -->
-                            <div class="carousel-caption mb-md-5">
-                                <h5>FEEDBACK</h5>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>FEEDBACK</h2>
                                 <p>Contacta con nuestro equipo cuando quieras</p>
                             </div>
                         </div>
@@ -111,13 +113,37 @@
         </div>
 
         <!-- FILA PARA EL FORMULARIO DE CONTACTO  Y NOTICIAS -->
-         <div class="row my-5">
+         <div class="row my-5 row-cols-3">
             <!-- COLUMNA NOTICIAS -->
-            <div class="col-12 col-md-8">
-                <article class="col-2">
-                    <img src="./img/primeraNoticia.webp" alt="" class="img-fluid">
-                </article>
-            </div>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/primeraNoticia.png" alt="" class="img-thumbnail"></img>
+                <h2>Optimización</h2>
+                <p class="placeholder-wave bg-secondary">
+                    <span class="placeholder col-12 bg-primary color-black">Trabajamos para hacerte la vida más fácil</span>
+                </p>
+            </article>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/segundaNoticia.png" alt="" class="img-thumbnail">
+                <h2>Global</h2>
+                <p>Nuestro trabajo está disponible tanto para particulares como para empresas que deseen aprovechar nuestros servicios</p>
+            </article>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/terceraNoticia.png" alt="" class="img-thumbnail">
+                <h2>Sostenibilidad</h2>
+                <p>Velamos por un mundo sostenible, sin tanta deforestación, nuestra misión también tiene como cometido</p>
+            </article>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
+            </article>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
+            </article>
+            <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center">
+                <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
+            </article>
+             
+                
+           
             <!-- COLUMNA FORMULARIO DE CONTACTO -->
              <div class="col-12 col-md-4">
                  <h2 class="text-center">Contactanos</h2>
