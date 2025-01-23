@@ -25,13 +25,13 @@
                     <ul class="d-flex flex-row justify-content-evenly list-unstyled m-0 p-0 w-100">
                         
                         <li>
-                            <a class="btn btn-secondary text-decoration-none boton-menu px-md-3 py-md-2 p-0 w-100" href="#contactar">CONTACTAR</a>
-                        </li>
-                        <li >
-                            <a class="btn btn-secondary text-decoration-none boton-menu px-md-3 py-md-2 p-0 w-100" href="#mision">MISIÓN</a>
+                            <a class="btn btn-secondary text-decoration-none boton-menu p-xs-3 p-1 w-100" href="#contactar">CONTACTAR</a>
                         </li>
                         <li>
-                            <a class="btn btn-secondary text-decoration-none boton-menu px-md-3 py-md-2 p-0 w-100" href="#">NOSOTROS</a>
+                            <a class="btn btn-secondary text-decoration-none boton-menu p-xs-3 p-1 w-100" href="#cartas">MISIÓN</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-secondary text-decoration-none boton-menu p-xs-3 p-1 w-100" href="#">NOSOTROS</a>
                         </li>
                         
                     </ul>
@@ -113,47 +113,50 @@
         </div>
 
         <!-- FILA PARA EL FORMULARIO DE CONTACTO  Y NOTICIAS -->
-         <div class="row my-5">
-            <div class="col-12 col-md-8 container">
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/primeraNoticia.png" alt="" class="img-thumbnail"></img>
-                    <h2>Optimización</h2>
-                    <p class="placeholder-wave">Trabajamos para hacerte la vida más fácil</p>
-                </article>
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/segundaNoticia.png" alt="" class="img-thumbnail">
-                    <h2>Global</h2>
-                    <p>Nuestro trabajo está disponible tanto para particulares como para empresas que deseen aprovechar nuestros servicios</p>
-                </article>
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/terceraNoticia.png" alt="" class="img-thumbnail">
-                    <h2 class="mt-2">Sostenibilidad</h2>
-                    <p>Velamos por un mundo sostenible, sin tanta deforestación, nuestra misión también tiene como cometido</p>
-                </article>
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
-                </article>
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
-                </article>
-                <article class="col-12 col-md-4 my-2 d-flex flex-column align-items-center text-center">
-                    <img src="./img/primeraNoticia.webp" alt="" class="img-thumbnail">
-                </article>
+         <div class="row my-2">
+            
+            <!-- NOTICIAS -->
+            <div class="col-12 col-md-8" id="cartas">
+                <div class="row">
+                
+                    <article class="col-12 col-md-6  my-2 my-md-0 d-flex flex-column align-items-center text-center">
+                        <img src="./img/primeraNoticia.png" alt="" class="img-thumbnail"></img>
+                        <h2>Optimización</h2>
+                        <p class="placeholder-wave">Trabajamos para hacerte la vida más fácil</p>
+                    </article>
 
+                    <article class="col-12 col-md-6  my-2 my-md-0 d-flex flex-column align-items-center text-center">
+                        <img src="./img/segundaNoticia.png" alt="" class="img-thumbnail">
+                        <h2>Global</h2>
+                        <p>Nuestro trabajo está disponible tanto para particulares como para empresas que deseen aprovechar nuestros servicios</p>
+                    </article>
+
+                    <article class="col-12 col-md-6 my-2 my-md-0 d-flex flex-column align-items-center text-center">
+                        <img src="./img/terceraNoticia.png" alt="" class="img-thumbnail">
+                        <h2 class="mt-2">Sostenibilidad</h2>
+                        <p>Velamos por un mundo sostenible, sin tanta deforestación, nuestra misión también tiene como cometido</p>
+                    </article>
+
+                    <article class="col-md-6 my-2 my-md-0 d-flex flex-column align-items-center text-center">
+                        <img src="./img/cuartaNoticia.png" alt="" class="img-thumbnail">
+                        <h2 class="mt-2">Seguridad</h2>
+                        <p>Mantén la privacidad de los datos de tu empresa a salvo con nuestra BD segura</p>
+                        
+                    </article>
+                </div>
             </div>
-            <!-- COLUMNA NOTICIAS -->
              
                 
            
             <!-- COLUMNA FORMULARIO DE CONTACTO -->
              <div class="col-12 col-md-4">
                  <h2 class="text-center">Contactanos</h2>
-                 <form action="" id="contactar">
+                 <form action="mailto:perosa1000@gmail.com" id="contactar">
                      <div class="mb-3">
                          <label for="nombre" class="form-label">Nombre</label>
                          <input type="text" class="form-control" id="nombre" name="nombre" required>
         
-                         <label for="email" class="form-label">Apellido</label>
+                         <label for="email" class="form-label">Email</label>
                          <input type="email" class="form-control" id="email" name="email" required>
 
                          <label for="telefono" class="form-label">Teléfono</label>
@@ -166,12 +169,15 @@
                      </div>
                  </form>
              </div>
-         </div>
+        </div>
 
 
         <!-- FOOTER -->
         <footer class="bg-dark text-white text-center fixed-bottom pt-3"> 
-            <p>Todos los derechos reservados  FORMEX &copy; 2025 | Javier Álvarez Centeno</p>
+            <p>
+                &copy; 2021 Formex&copy; Todos los derechos reservados. - Desarrollado por <a href="https://www.linkedin.com/in/javier-%C3%A1lvarez-centeno-1390962a5/">Javier Álvarez Centeno</a>
+            </p>
+            
         </footer>
 
     </div>
