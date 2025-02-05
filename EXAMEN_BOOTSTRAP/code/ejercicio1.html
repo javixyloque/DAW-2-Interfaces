@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../BOOTSTRAP/css/bootstrap.min.css">
+    <title>Viajes</title>
+</head>
+<body>
+    <header class="fixed-top d-flex justify-content-between bg-dark px-3">
+        <h2 class="pt-2 "><a class="text-decoration-none text-light" href="#">EuroTravel</a></h2>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#paquetes">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <hero class="mt-5 py-5 bg-primary d-flex flex-column align-items-center">
+        <h1 class="text-align-center text-light">Explora Europa con EuroTravel</h1>
+        <h2 class="text-align-center text-light">Los mejores destinos y paquetes a tu alcance</h2>
+
+        <img class="img-fluid w-100" src="../img/inicio2.jpg" alt="">
+
+        <a href="#paquetes" class="btn btn-light text-dark text-decoration-none p-2 bg-light  text-center">
+            <strong>Ver Paquetes</strong>
+        </a>
+    </hero>
+
+    <section id="destinos" class="pt-2">
+        <h2 class="text-center">Destinos Populares</h2>
+        <div class="container">
+            <div class="row">
+                <div class="card col-md-4 col-12" >
+                    <img src="../img/th.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">París</h5>
+                        <p class="card-text">Descubre la ciudad del amor y la torre Eiffel</p>
+                        <a href="#paquetes" class="btn btn-primary">Consultar precios</a>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-12" >
+                    <img src="../img/roma2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Roma</h5>
+                        <p class="card-text">Explora la historia del Imperio Romano</p>
+                        <a href="#paquetes" class="btn btn-primary">Consultar precios</a>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-12" >
+                    <img src="../img/londres2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Londres</h5>
+                            <p class="card-text">Visita el Big Ben y el London Eye</p>
+                        <a href="#paquetes" class="btn btn-primary">Consultar precios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <caption><h2 class="text-center mt-5" id="paquetes">Nuestros paquetes</h2></caption>
+                <table class="table table-striped table-bordered text-center align-self-center">
+                    
+                    <thead class="table-light">
+                        <tr>
+                            <th>Destino</th>
+                            <th>Duración</th>
+                            <th>Precio</th>
+                            <th>Acción</th>
+                        </tr>
+                        
+                    
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">París</th>
+                            <td>5 días</td>
+                            <td>$1200</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalParis">
+                                    Reservar
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalParis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">PARÍS</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        DIAS TOTALES RESERVADOS: <strong>5</strong><br>
+                                        COSTE TOTAL RESERVA: <strong>$1200</strong> 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Reservar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Roma</th>
+                            <td>7 días</td>
+                            <td>$1500</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRoma">
+                                    Reservar
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalRoma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">ROMA</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        DIAS TOTALES RESERVADOS: <strong>7</strong><br>
+                                        COSTE TOTAL RESERVA: <strong>$1500</strong> 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Reservar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </tr>
+                        <tr>
+                            <th scope="row">Londres</th>
+                            <td>6 días</td>
+                            <td>$1300</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLondres">
+                                    Reservar
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalLondres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">LONDRES</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        DIAS TOTALES RESERVADOS: <strong>6</strong><br>
+                                        COSTE TOTAL RESERVA: <strong>$1300</strong> 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Reservar</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-12 col-md-4 mt-5">
+                <h2 class="text-center" id="contacto">Contacto</h2>
+                <form >
+                    <div class="form-group mt-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="password" class="form-control mt-2" id="exampleInputPassword1" placeholder="Juanito">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="exampleInputEmail1">Correo Electrónico</label>
+                        <input type="email" class="form-control mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="comentario" class="form-label">Mensaje</label>
+                        <textarea class="form-control mt-2" id="mensaje" rows="3" placeholder="Escribe un mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2 mb-5 text-center">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+    <footer class="fixed-bottom bg-dark text-center text-light py-3">
+        &copy; 05/02/2025 Javier Álvarez Centeno
+    </footer>
+
+    <script src="../BOOTSTRAP/js/bootstrap.min.js"></script>
+</body>
+</html>
