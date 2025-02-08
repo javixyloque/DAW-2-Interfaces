@@ -1,59 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../BOOTSTRAP/css/bootstrap.min.css">
     <link rel="shortcut icon" href="./resources/Logo.png" type="image/x-icon">
-    <title>Document</title>
+    <title>MindCare</title>
 </head>
 <body>
     
-    
+
     <!-- ENCABEZADO (REVISAR) -->
     <header class="fixed-top d-flex justify-content-between bg-success px-3">
-        
-        <a href="#" class="navbar-brand" id="logo"><img  src="./resources/Logo.png" alt="Salud mental" class="img-fluid"></a>
-        
+        <a href="#" class="navbar-brand mt-2" id="logo"><h1 class="text-light">Salud mental</h1></a>
         <nav class="navbar navbar-expand-md navbar-dark d-md-flex justify-content-between ms-auto">
-            
-            
-
-            <button class="navbar-toggler ms-5 me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        
+                        <a href="#" class="nav-link" aria-current="page">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+                        <a href="#nosotros" class="nav-link" aria-current="page">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicios">Servicios</a>
+                        <a href="#servicios" class="nav-link" aria-current="page">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
+                        <a href="#contacto" class="nav-link" aria-current="page">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
-    <!-- SECCIÓN HERO -->
-    <section id="hero" class="mt-5 pt-5 bg-success d-flex flex-column align-items-center">
         
-        <img class="img-fluid w-100" src="./resources/portada.jpg" alt="">
-        
-        <h1 class="text-align-center text-light">Bienvenido a MindCare</h1>
-        <h2 class="text-align-center text-light">Te ayudamos a sanar tu mente</h2>
+    <!-- SECCION HERO -->
+    <section class="bg-success d-flex justify-content-center align-items-center " id="portada">
+        <div class="container text-center p-3">
+            <h1>Bienvenido a MindCare</h1>
+            <h2>Te ayudamos a sanar tu mente</h2>
+        </div>
     </section>
 
 
-    <script src="../BOOTSTRAP/js/bootstrap.min.js"></script>
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    <section id="nosotros" class="pt-5 bg-white">
+        
+        <div class="container">
+            <h1>Sobre nosotros </h1>
+            <p>En salud mental, nos dedicamos a brindar apoyo y recursos para tu bienestar emocional</p>
+        </div>
+    </section>
     
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios" class="pt-5 bg-white">
+        <div class="container ">
+            <h1>Servicios</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card shadow-sm text-decoration-none">
+                        <!-- SIN img-fluid PARA PODER AJUSTAR ALTURA -->
+                        <img src="./resources/terapia-individual.jpg" class="card-img-top" alt="Terapia Individual">
+                        <h5 class="card-title">Terapia Individual</h5>
+                        <p class="card-text">Recibe asistencia personalizada para abordar tus necesidades emocionales.</p>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card shadow-sm text-decoration-none">
+                        <img src="./resources/terapia-pareja.jpg" class="card-img-top" alt="Terapia de Pareja">
+                        <h5 class="card-title">Terapia de Pareja</h5>
+                        <p class="card-text">Trabaja con tu pareja para mejorar la comunicación y fortalecer el vínculo.</p>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="card shadow-sm text-decoration-none">
+                        <img src="./resources/grupos-apoyo.jpg" class="card-img-top" alt="Grupos de Apoyo">
+                        <h5 class="card-title">Grupos de Apoyo</h5>
+                        <p class="card-text">Únete a un grupo de personas con desafíos similares para encontrar apoyo y comprensión.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="pt-5 bg-white">
+        
+        <div class="container">
+            <h1>Contáctanos</h1>
+            
+            <!-- FORMULARIO DE CONTACTO -->
+            <form>
+                <input type="email" name="" placeholder="Correo Electrónico">
+                <textarea name="" cols="" rows="" placeholder="Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <!-- INFORMACIÓN DE CONTACTO -->
+            <p>Dirección: Calle 123, Ciudad</p>
+            <p>Telefono: +1234567890</p>
+        </div>
+    </section>
+    
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer class="bg-dark text-white py-3">
+        
+        <div class="container">
+            <p>&copy; 2023 MindCare. Todos los derechos reservados.</p>
+            
+            <!-- ENLACES A REDES SOCIALES -->
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>       
+        
+    <script src="../BOOTSTRAP/js/bootstrap.min.js"></script>
+        
 </body>
 </html>

@@ -1,9 +1,36 @@
-#hero {
-    margin-top: 100px;
+#portada {
+    padding-top: 35em;
+    background-image: url("./resources/portada.JPG");
+    /* background-attachment: fixed; */
+
+    /* LAS 3 MARÍAS */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+}
 
 #logo {
-    max-width: 40%; 
-    max-height: 40%;
+    max-width: 10%; 
+    max-height: 10%;
+}
+
+#servicios h5 {
+    margin: auto;
+}
+#servicios p {
+    margin: 0.5em;
+}
+
+@media (max-width: 768px) {
+    
 }
